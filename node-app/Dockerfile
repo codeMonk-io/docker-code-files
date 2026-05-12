@@ -15,3 +15,7 @@ COPY package.json /home/app/package.json
 WORKDIR /home/app/
 
 RUN npm install
+
+# after this, we can run the application using the command below
+# docker build -t myApp .
+#docker  images 
